@@ -1,18 +1,20 @@
-<header class="bg-white border-b border-gray-200">
+<header class="bg-white">
     <div class="max-w-4xl mx-auto px-4 py-4">
-        <div class="flex items-center gap-3 mb-4">
-            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
-                <div class="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                    <div class="w-4 h-4 bg-blue-600 rounded-full"></div>
-                </div>
+            <div class="flex-shrink-0">
+                <img src="{{ asset('assets/logo/AAAEP-logo.png') }}" 
+                     alt="AAAEP Centre National des Tests Psychotechniques" 
+                     class="h-12 w-auto">
             </div>
-            <div>
-                <div class="text-xs text-gray-600 uppercase tracking-wide">Centre National</div>
-                <div class="text-xs text-gray-600 uppercase tracking-wide">des Tests Psychotechniques</div>
-            </div>
-        </div>
+    </div>
+    
+    
+<div class="bg-white border-t border-b border-gray-200" 
+     style="box-shadow: 0 -4px 6px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.1);">
+    <div class="max-w-4xl mx-auto px-4 py-4">
         <h1 class="text-2xl font-semibold text-blue-700">
             Test psychotechnique pour permis de conduire à Montgeron
         </h1>
     </div>
+</div>
+
 </header>
