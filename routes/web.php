@@ -12,7 +12,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::view('/ramananandro-completez-votre-reservation', 'pages.completez-votre-reservation');
+Route::view('/ramananandro-paiement', 'pages.paiement');
