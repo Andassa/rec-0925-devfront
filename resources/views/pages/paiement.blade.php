@@ -139,76 +139,79 @@ $hideFooter = true;
         </div>
 
         <!-- Right Column - Summary (1/3 width) -->
-        <div class="lg:col-span-1 flex justify-start">
-            <div class="relative sticky top-8 space-y-4 w-full lg:w-[380px] lg:pl-2">
-                <!-- Card récapitulatif -->
-                <div class="bg-white rounded-lg border border-gray-200 p-8 w-full">
-                    <h3 class="text-base font-semibold text-pink-600 mb-4 whitespace-nowrap">
-                        Récapitulatif de votre test psychotechnique
-                    </h3>
+<!-- Right Column - Summary (1/3 width) -->
+<div class="lg:col-span-1 flex justify-center lg:justify-start">
+    <div class="sticky top-20 self-start w-full lg:w-[420px] space-y-4">
+        <!-- Wrapper pour centrer verticalement -->
+        <div class="flex flex-col justify-center h-full space-y-4">
 
-                    <div class="mb-4">
-                        <span class="text-lg font-medium text-gray-700">Total à payer : </span>
-                        <span class="text-lg font-medium text-gray-900">130.00€</span>
-                    </div>
+            <!-- Card récapitulatif -->
+            <div class="bg-white rounded-lg border border-gray-200 p-8 w-full shadow-md">
+                <h3 class="text-base font-semibold text-pink-600 mb-4 whitespace-nowrap">
+                    Récapitulatif de votre test psychotechnique
+                </h3>
 
-                    <p class="text-xs text-gray-600 leading-relaxed">
-                        En passant votre commande, vous acceptez les conditions générales 
-                        de vente de la société AAAEP. Veuillez consulter notre politique de 
-                        protection des données.
-                    </p>
+                <div class="mb-4">
+                    <span class="text-lg font-medium text-gray-700">Total à payer : </span>
+                    <span class="text-lg font-medium text-gray-900">130.00€</span>
                 </div>
 
-                <!-- Cercles -->
-                <div class="grid grid-cols-3 gap-0 text-center">
-                    <!-- Cercle 1 -->
-                    <div class="flex flex-col items-center">
-                        <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                            <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 6.253v13m0-13C10.832 5.477 
-                                    9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 
-                                    18.477 5.754 18 7.5 18s3.332.477 4.5 
-                                    1.253m0-13C13.168 5.477 14.754 5 16.5 
-                                    5c1.747 0 3.332.477 4.5 1.253v13C19.832 
-                                    18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
-                            </svg>
-                        </div>
-                        <p class="text-sm font-semibold text-gray-900 mb-1 leading-tight">Entraînement</p>
-                        <p class="text-xs text-gray-600 leading-tight">Gratuit Illimité</p>
+                <p class="text-xs text-gray-600 leading-relaxed">
+                    En passant votre commande, vous acceptez les conditions générales 
+                    de vente de la société AAAEP. Veuillez consulter notre politique de 
+                    protection des données.
+                </p>
+            </div>
+
+            <!-- Cercles -->
+            <div class="grid grid-cols-3 gap-0 text-center">
+                <!-- Cercle 1 -->
+                <div class="flex flex-col items-center">
+                    <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
+                        <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6.253v13m0-13C10.832 5.477 
+                                9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 
+                                18.477 5.754 18 7.5 18s3.332.477 4.5 
+                                1.253m0-13C13.168 5.477 14.754 5 16.5 
+                                5c1.747 0 3.332.477 4.5 1.253v13C19.832 
+                                18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
                     </div>
+                    <p class="text-sm font-semibold text-gray-900 mb-1 leading-tight">Entraînement</p>
+                    <p class="text-xs text-gray-600 leading-tight">Gratuit Illimité</p>
+                </div>
 
-                    <!-- Cercle 2 -->
-                    <div class="flex flex-col items-center">
-                        <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                            <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12h6m-6 4h6m2 5H7a2 2 0 
-                                    01-2-2V5a2 2 0 012-2h5.586a1 1 0 
-                                    01.707.293l5.414 5.414a1 1 0 
-                                    01.293.707V19a2 2 0 01-2 2z"/>
-                            </svg>
-                        </div>
-                        <p class="text-sm font-semibold text-gray-900 mb-1 leading-tight">Résultats</p>
-                        <p class="text-xs text-gray-600 leading-tight">le Jour Même</p>
+                <!-- Cercle 2 -->
+                <div class="flex flex-col items-center">
+                    <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
+                        <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 
+                                01-2-2V5a2 2 0 012-2h5.586a1 1 0 
+                                01.707.293l5.414 5.414a1 1 0 
+                                01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
                     </div>
+                    <p class="text-sm font-semibold text-gray-900 mb-1 leading-tight">Résultats</p>
+                    <p class="text-xs text-gray-600 leading-tight">le Jour Même</p>
+                </div>
 
-                    <!-- Cercle 3 -->
-<div class="flex flex-col items-center">
-    <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-        <img src="{{ asset('assets/logo/check-mark-circle-svgrepo-com.svg') }}" 
-             alt="Check mark" 
-             class="w-8 h-8 text-green-600"/>
-    </div>
-    <p class="text-sm font-semibold text-gray-900 mb-1 leading-tight">Annulation</p>
-    <p class="text-xs text-gray-600 leading-tight">Gratuite jusqu'à 48h</p>
-</div>
-
+                <!-- Cercle 3 -->
+                <div class="flex flex-col items-center">
+                    <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
+                        <img src="{{ asset('assets/logo/check-mark-circle-svgrepo-com.svg') }}" 
+                             alt="Check mark" 
+                             class="w-8 h-8"/>
+                    </div>
+                    <p class="text-sm font-semibold text-gray-900 mb-1 leading-tight">Annulation</p>
+                    <p class="text-xs text-gray-600 leading-tight">Gratuite jusqu'à 48h</p>
                 </div>
             </div>
         </div>
-
     </div>
+</div>
+
 </div>
 
 @endsection
