@@ -1,5 +1,5 @@
-<footer class="bg-black text-white">
-    <div class="container mx-auto px-5 py-6"> <!-- même container que le header -->
+<footer class="fixed bottom-0 left-0 w-full z-50 bg-black text-white">
+    <div class="container mx-auto px-5 py-6">
         <div class="flex flex-col md:flex-row items-stretch justify-between gap-4 md:gap-0">
             
             <!-- Left section -->
@@ -8,19 +8,21 @@
                   <img src="/assets/logo/calendar-check-svgrepo-com.svg" alt="Check icon" class="w-full h-full">
                 </div>
                 <div class="flex flex-col flex-grow">
-                    <div class="text-base md:text-lg font-medium text-blue-900 leading-tight">Test psychotechnique le 28 mars à 14:00</div> <!-- texte légèrement agrandi -->
-                    <div class="text-sm md:text-base text-blue-900 mt-0.5">15 rue de la République Montgeron 91230</div> <!-- texte légèrement agrandi -->
+                    <div class="text-base md:text-lg font-medium text-blue-900 leading-tight">
+                        Test psychotechnique le 28 mars à 14:00
+                    </div>
+                    <div class="text-sm md:text-base text-blue-900 mt-0.5">
+                        15 rue de la République Montgeron 91230
+                    </div>
                 </div>
             </div>
 
-            <!-- Right section: Total + Button -->
+            <!-- Right section -->
             <div class="flex flex-col w-full md:w-auto justify-between">
-                <!-- Total + 135€ sur la même ligne -->
                 <div class="flex justify-between items-baseline mb-2">
                     <div class="text-sm text-gray-400 font-medium">Total</div>
                     <div class="text-2xl md:text-3xl font-bold text-white">135€</div>
                 </div>
-                <!-- Button full width -->
                 <button class="bg-pink-500 hover:bg-pink-600 text-white text-sm py-3 px-16 w-full md:w-auto rounded-lg font-medium flex items-center justify-center gap-2 transition-colors">
                     Suivant
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -28,7 +30,6 @@
                     </svg>
                 </button>
             </div>
-
         </div>
     </div>
 </footer>
