@@ -194,16 +194,16 @@ $hideFooter = true;
                     </div>
 
                     <!-- Cercle 3 -->
-                    <div class="flex flex-col items-center">
-                        <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                            <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"/>
-                            </svg>
-                        </div>
-                        <p class="text-sm font-semibold text-gray-900 mb-1 leading-tight">Annulation</p>
-                        <p class="text-xs text-gray-600 leading-tight">Gratuite jusqu'à 48h</p>
-                    </div>
+<div class="flex flex-col items-center">
+    <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
+        <img src="{{ asset('assets/logo/check-mark-circle-svgrepo-com.svg') }}" 
+             alt="Check mark" 
+             class="w-8 h-8 text-green-600"/>
+    </div>
+    <p class="text-sm font-semibold text-gray-900 mb-1 leading-tight">Annulation</p>
+    <p class="text-xs text-gray-600 leading-tight">Gratuite jusqu'à 48h</p>
+</div>
+
                 </div>
             </div>
         </div>
