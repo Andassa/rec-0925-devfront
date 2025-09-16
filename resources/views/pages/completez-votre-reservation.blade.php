@@ -102,7 +102,7 @@
                         <img src="{{ asset('assets/logo/refresh-svgrepo-com-vert.svg') }}" 
                              alt="Refresh icon" 
                              class="w-6 h-6 flex-shrink-0 mt-0.5"/>
-                        <span class="text-sm text-gray-700">Repassez votre test pour 0€ (si test échoué)</span>
+                        <span class="text-sm text-gray-700 font-bold">Repassez votre test pour 0€ (si test échoué)</span>
                     </div>
                     <div class="flex items-start gap-3">
                         <svg class="w-5 h-5 text-[#0dbc0d] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -156,13 +156,13 @@
                         <img src="{{ asset('assets/logo/check-mark-circle-svgrepo-com-bleue.svg') }}" 
                              alt="Check mark icon" 
                              class="w-6 h-6 flex-shrink-0 mt-0.5"/>
-                        <span class="text-sm text-gray-700">Annulation jusqu'à 48 heures</span>
+                        <span class="text-sm text-gray-700 font-bold">Annulation jusqu'à 48 heures</span>
                     </div>
                     <div class="flex items-start gap-3">
                         <img src="{{ asset('assets/logo/refresh-svgrepo-com-bleue.svg') }}" 
                              alt="Refresh icon" 
                              class="w-6 h-6 flex-shrink-0 mt-0.5"/>
-                        <span class="text-sm text-gray-700">Repassez votre test pour 0€ (si test échoué)</span>
+                        <span class="text-sm text-gray-700 font-bold">Repassez votre test pour 0€ (si test échoué)</span>
                     </div>
                     <div class="flex items-start gap-3">
                         <svg class="w-5 h-5" fill="none" stroke="#36578a" viewBox="0 0 24 24">
