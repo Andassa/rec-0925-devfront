@@ -16,6 +16,9 @@
         @yield('content')
     </main>
 
-    @include('components.footer')
+    @if(!isset($hideFooter) || !$hideFooter)
+        @include('components.footer')
+    @endif
 </body>
+
 </html>

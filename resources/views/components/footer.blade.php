@@ -1,30 +1,34 @@
-<footer class="bg-gray-800 text-white">
-    <div class="max-w-4xl mx-auto px-4 py-4">
-        <div class="flex items-center justify-between">
-            <div class="flex items-center gap-3">
-                <div class="w-8 h-8 bg-pink-500 rounded flex items-center justify-center">
-                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/>
-                        <path d="M3 4a1 1 0 00-1 1v1a1 1 0 001 1h1a1 1 0 001-1V5a1 1 0 00-1-1H3zM3 10a1 1 0 00-1 1v1a1 1 0 001 1h1a1 1 0 001-1v-1a1 1 0 00-1-1H3zM3 16a1 1 0 00-1 1v1a1 1 0 001 1h1a1 1 0 001-1v-1a1 1 0 00-1-1H3z"/>
-                    </svg>
+<footer class="bg-black text-white">
+    <div class="container mx-auto px-5 py-6"> <!-- même container que le header -->
+        <div class="flex flex-col md:flex-row items-stretch justify-between gap-4 md:gap-0">
+            
+            <!-- Left section -->
+            <div class="bg-white text-gray-800 rounded-2xl flex items-center gap-4 w-full md:w-auto min-w-[320px] px-5 py-5">
+                <div class="w-5 h-5 flex items-center justify-center flex-shrink-0">
+                  <img src="/assets/logo/calendar-check-svgrepo-com.svg" alt="Check icon" class="w-full h-full">
                 </div>
-                <div>
-                    <div class="text-sm font-medium">Test psychotechnique le 28 mars à 14:00</div>
-                    <div class="text-xs text-gray-300">15 rue de la République Montgeron 91230</div>
+                <div class="flex flex-col flex-grow">
+                    <div class="text-base md:text-lg font-medium text-blue-900 leading-tight">Test psychotechnique le 28 mars à 14:00</div> <!-- texte légèrement agrandi -->
+                    <div class="text-sm md:text-base text-blue-900 mt-0.5">15 rue de la République Montgeron 91230</div> <!-- texte légèrement agrandi -->
                 </div>
             </div>
-            <div class="flex items-center gap-4">
-                <div class="text-right">
-                    <div class="text-sm text-gray-300">Total</div>
-                    <div class="text-2xl font-bold">135€</div>
+
+            <!-- Right section: Total + Button -->
+            <div class="flex flex-col w-full md:w-auto justify-between">
+                <!-- Total + 135€ sur la même ligne -->
+                <div class="flex justify-between items-baseline mb-2">
+                    <div class="text-sm text-gray-400 font-medium">Total</div>
+                    <div class="text-2xl md:text-3xl font-bold text-white">135€</div>
                 </div>
-                <button class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 transition-colors">
+                <!-- Button full width -->
+                <button class="bg-pink-500 hover:bg-pink-600 text-white text-sm py-3 px-16 w-full md:w-auto rounded-lg font-medium flex items-center justify-center gap-2 transition-colors">
                     Suivant
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
                     </svg>
                 </button>
             </div>
+
         </div>
     </div>
 </footer>
