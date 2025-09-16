@@ -1,10 +1,10 @@
 <div class="bg-white rounded-3xl shadow-sm border {{ $border }} overflow-hidden flex flex-col min-h-[600px]">
     <!-- Header -->
-    <div class="text-center py-4 px-6"
-         style="background-color: {{ $color }}; color: {{ $color === '#f2f3f5' ? '#374151' : 'white' }}">
-        <h3 class="font-semibold text-lg">{{ $title }}</h3>
-        <p class="text-sm mt-1 opacity-80">{{ $subtitle }}</p>
-    </div>
+<div class="text-center py-4 px-6 rounded-t-3xl"
+     style="background-color: {{ $color }}; color: {{ $color === '#f2f3f5' ? '#374151' : 'white' }}; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <h3 class="font-semibold text-lg">{{ $title }}</h3>
+    <p class="text-sm mt-1 opacity-80">{{ $subtitle }}</p>
+</div>
 
     <div class="p-6 flex flex-col flex-1">
         <!-- Price + Button -->
