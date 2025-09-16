@@ -34,17 +34,17 @@
                     <div class="flex items-start gap-3">
                         <img src="{{ asset('assets/logo/cursor-hand-click-svgrepo-com.svg') }}" 
                              alt="Cursor click icon" 
-                             class="w-5 h-5 flex-shrink-0 mt-0.5"/>
+                             class="w-6 h-6 flex-shrink-0 mt-0.5"/>
                         <span class="text-sm text-gray-700">Entraînement illimité et gratuit</span>
                     </div>
                     <div class="flex items-start gap-3">
                         <img src="{{ asset('assets/logo/check-mark-circle-svgrepo-com-noire.svg') }}" 
                              alt="Check mark icon" 
-                             class="w-5 h-5 flex-shrink-0 mt-0.5"/>
+                             class="w-6 h-6 flex-shrink-0 mt-0.5"/>
                         <span class="text-sm text-gray-700">Annulation jusqu'à 48 heures</span>
                     </div>
                     <div class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-gray-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-6 h-6 text-gray-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                         </svg>
                         <span class="text-sm text-gray-700">Recevez votre test le jour J</span>
@@ -89,13 +89,13 @@
                     <div class="flex items-start gap-3">
                         <img src="{{ asset('assets/logo/cursor-hand-click-svgrepo-com-vert.svg') }}" 
                              alt="Cursor click icon" 
-                             class="w-5 h-5 flex-shrink-0 mt-0.5"/>
+                             class="w-6 h-6 flex-shrink-0 mt-0.5"/>
                         <span class="text-sm text-gray-700">Entraînement illimité et gratuit</span>
                     </div>
                     <div class="flex items-start gap-3">
                         <img src="{{ asset('assets/logo/check-mark-circle-svgrepo-com.svg') }}" 
                              alt="Check mark icon" 
-                             class="w-5 h-5 flex-shrink-0 mt-0.5"/>
+                             class="w-6 h-6 flex-shrink-0 mt-0.5"/>
                         <span class="text-sm text-gray-700">Annulation jusqu'à 48 heures</span>
                     </div>
                     <div class="flex items-start gap-3">
@@ -105,7 +105,7 @@
                         <span class="text-sm text-gray-700 font-bold">Repassez votre test pour 0€ (si test échoué)</span>
                     </div>
                     <div class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-[#0dbc0d] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-6 h-6 text-[#0dbc0d] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                         </svg>
                         <span class="text-sm text-gray-700">Recevez votre test le jour J</span>
@@ -165,7 +165,7 @@
                         <span class="text-sm text-gray-700 font-bold">Repassez votre test pour 0€ (si test échoué)</span>
                     </div>
                     <div class="flex items-start gap-3">
-                        <svg class="w-5 h-5" fill="none" stroke="#36578a" viewBox="0 0 24 24">
+                        <svg class="w-6 h-6" fill="none" stroke="#36578a" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                         </svg>
                         <span class="text-sm text-gray-700">Recevez votre test le jour J</span>
@@ -173,7 +173,7 @@
                     <div class="flex items-start gap-3">
                         <img src="{{ asset('assets/logo/book-svgrepo-com-bleue.svg') }}" 
                              alt="Book icon" 
-                             class="w-5 h-5 flex-shrink-0 mt-0.5"/>
+                             class="w-6 h-6 flex-shrink-0 mt-0.5"/>
                         <span class="text-sm text-gray-700">Livret de préparation au test psychotechnique</span>
                     </div>
                     <div class="flex items-start gap-3">
